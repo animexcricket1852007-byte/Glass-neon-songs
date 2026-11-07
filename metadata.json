@@ -1,0 +1,6 @@
+{
+  "name": "Glass to Neon Lyrics",
+  "description": "Emotional 16:9 lyric video creator with tap-sync timing, 3D frosted glass card, natural image clips with organic particles, and glowing pink neon typography.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

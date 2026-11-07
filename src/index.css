@@ -1,0 +1,24 @@
+@import "tailwindcss";
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+  --font-inter: 'Inter', sans-serif;
+  --font-devanagari: 'Noto Sans Devanagari', sans-serif;
+  --font-script: 'Great Vibes', cursive;
+}
+
+/* Custom scrollbars for dark editing suite */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: rgba(15, 7, 10, 0.5);
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(160, 40, 60, 0.35);
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(220, 50, 80, 0.6);
+}
